@@ -6,99 +6,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIC/w0TGf+7z97/uM/e/7vQ3P9pd5b/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQDA/+csuP/CgsL/7bN3P8LERX/nLHe/w0UGv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAgb/iZrS/woMDv+50N//t8/f/0ZKb/8RGB//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE/wABAf+2zd//mK/d/5it4P8PFCL/Jy5J/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACctQP8+R2P/DBgf/xgfL/8kLEb/NT9e/xcbIv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEC/xEZHf8RFyT/BAAE/52t1f8DAwP/AAAAAK7S/v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABf8AAQn/AAAAAAAAAAAcFXD/Iik2/5Os1f6e/+z/AAIB/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFXP/j6zi/wAAAAAAAAAAAwEA/xwWZ/+m+vn/pv7x/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACi/fH/HRV0/1JZa/8AAAAAAAAAAAAAAAAAAAr/ov/w/wsOD/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC93PD/DgM2/wYCKf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUuNv+aq8n/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwdXUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD4DwAA+A8AAPgPAAD4DwAA+A8AAPwLAAD8wQAA/MMAAPjjAADx/wAA+f8AAP//AAD//wAA//8AAA==" rel="icon" type="image/x-icon">
-<title>My Portfolio ❤️</title>
+<title>Face On/Off</title>
 <style>
 
-body {
-background-image: url('https://i.postimg.cc/Hs0y74Wc/ezgif-2-111d1d46f2.gif');
-background-attachment: fixed;
-background-size: cover;
-background-repear: no-repeat;
+#point {
 font-family: "Dokdo", system-ui;
-color: white;
 }
 
-.nav-item {
-color: white;
-}
-
-.navbar-brand {
-color: white;
+#point1 {
+font-family: "Dokdo", system-ui;
 font-size: 50px;
 }
 
-#highlights{
-text-decoration: underline;
+body {
+background-image: url('https://i.postimg.cc/VN4Wn6wb/2506853e55cf5c0cd62f9c349087c4c4-face-off-movie-collection-2385949934.jpg');
+background-attachment: fixed;
 }
-
-#ident {
-background-color: rgba(0,0,0,0.5);
-border: 9px dotted white;
-text-align: justify;
-display: flex;
-}
-
-#title {
-font-size: 100px;
-color: rgb(255, 255, 0);
-}
-
-#move {
-padding-left: 50px;
-}
-
-#desc {
-font-size: 30px;
-}
-
-#desc2 {
-font-size: 15px;
-}
-
-#desc3 {
-font-size: 50px;
-text-align: center;
-color: rgb(202, 226, 242);
-}
-
-.float-right {
-text-align: right;
-}
-
-#unique {
-font-size: 20px;
-}
-
 </style>
 </head>
 <body>
-<audio autoplay loop>
-<source id="music" src="https://www.sndup.net/p7p9/d" type="audio/mpeg">
-</audio>
-<nav class="navbar navbar-expand-sm bg-dark text-white" width="device-width">
-<a class="navbar-brand" href="quiz123u13.html"><img src="https://i.postimg.cc/SQ3D7z27/medotcom-removebg-preview.png" alt="meicon" width="80px"><span id="highlights">Gabie's Portfolio</span></a>
+<center>
+<nav class="navbar navbar-expand-sm bg-dark text-white" width="device-width" id="point">
+<a class="navbar-brand" href="quiz123u13.html"><img src="https://i.postimg.cc/SQ3D7z27/medotcom-removebg-preview.png" alt="meicon" width="80px"><span style=" color: white; font-size: 50px; text-decoration: underline;">Gabie's Portfolio</span></a>
 <div id="topnav">
 <ul class="navbar-nav">
 
 <li class="nav-item">
-<a class="nav-link text-white" id="bobob" href="quiz123u13.html" target="_self" onclick="ab">Home</a>
-</li>
+<a id="bobob" class="nav-link text-white" href='quiz123u13.html' target="_self" onclick="ab()">Home</a></li>
 
 <li class="nav-item">
-<a class="nav-link text-white" id="sosos" onclick="ba()" href="earl.html" target="_self" >Projects</a>
-</li>
+<a id="sosos" class="nav-link text-white" href='earl.html' target="_self" onclick="ba()">Projects</a>
 
 <li class="nav-item">
-<a class="nav-link text-white" id="cococ" href='#' onclick="ga()">Best/Random HTMLS</a>
-</li>
+<a id="cococ" class="nav-link text-white" href='#' onclick="ga()">Best/Random HTMLS</a>
 
 <li class="nav-item">
-<a class="nav-link text-white" id="dodod" href="credits.html" onclick="ea()">Credits</a>
-</li>
+<a id="dodod" class="nav-link text-white" href='credits.html' onclick="ea()">Credits</a>
 
-</ul>
+</li>
+</li>
+</li>
 </div>
-
+</ul>
 
 <div class="search-container">
 <form>
@@ -110,55 +59,38 @@ font-size: 20px;
 <img src="https://i.postimg.cc/zvGxc6RH/output-onlinegiftools-6.gif" alt="place" width="100px">
 </div>
 </nav>
-<center>
+<h1 id="point1" class="bg-dark text-warning">Face On/Off</h1>
+
+
+<audio id="audio">
+<source src="https://www.sndup.net/nb3r/d" type="audio/mpeg">
+</audio>
+<br><br>
+<img id="face" src="https://i.postimg.cc/dtvctH5N/face-on.png" alt="face" width="300px">
 <br>
-<div class="container container-fluid" id="ident">
-<div class="container">
-<div class="row" id="move">
-<table class="table table-hover col-md-5">
-<tr>
-<td><img src="https://i.postimg.cc/HxT753gC/portrait-removebg-preview.png" alt="itsmee" width="300px"></td>
-</tr>
-</table>
-</div>
-</div>
-
-<div class="container">
-<div class="row" >
-
-<table class="table table-hover col-md-8" id="strawberry">
-<tr>
-
-<td id="title">✨Hello!</td>
-</tr>
-<tr>
-<td id="desc2"> My name is Angeli Biscocho, and I am an OBMC Fairview student from 9-Ruby. In the future, I dream to be somewhere in the ICT department, because I was always so fond of coding ever since I discovered Scratch. ICT is my favorite subject and I have been learning new things about it everyday. Enjoy my htmls compiled from my journey of building HTMLs from before to now!</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<br>
-<center>
-<div class="container container-fluid" id="ident">
+<a class="btn btn-success" onclick="faceon()"> ON </a>
+<a class="btn btn-danger" onclick="faceoff()"> OFF </a>
+<br><br><br>
+<div class="container-fluid" style=" border: 9px dotted white; background-color: rgba(0,0,0,0.5); text-align: justify; display: flex; font-family: Dokdo, system-ui;">
 <div class="row">
 <table class="table table-hover">
 <tr>
-<td id="title">Instructions:</td>
-<td id="desc"> If you want to see my works, please press any of the navbar buttons above :)</td>
+<td style="color: rgb(255, 255, 0);); font-size: 30px; text-decoration: underline;"> Commentary<img src="https://i.postimg.cc/G37mZxFG/vsdcds-removebg-preview.png" alt="minini" width="60px"></td>
+<td class="text-white">Fun Fact: This was based on a Super Mario World mod named "Mario's Mystery Meat"... it's a secret that can be found somewhere in a level. It's just funny it's based on the movie of the same name :)</td>
 </tr>
-</table>
-<table class="table table-hover">
 <tr>
-<td id="desc3"><img src="https://i.postimg.cc/qq03DqQv/base-removebg-preview.png" alt="smthn" width="50px">❤️⭐❤️Thank you!!!❤️⭐❤️<img src="https://i.postimg.cc/qq03DqQv/base-removebg-preview.png" alt="smthn" width="50px"></td>
+<td><a class="btn btn-secondary text-dark" href="quiz123u13.html">Back to main page</a><br><a id="rand" class="btn btn-light text-dark" href="#" onclick="random()">Roll the dice!</a></td>
 </tr>
 </table>
 </div>
 </div>
-<nav class="fixed-bottom navbar-expand-sm bg-dark text-white">
+
+<nav class="fixed-bottom navbar-expand-sm bg-dark text-white" id="point">
 <a class="navbar-brand" id="unique"> SY 2023-2024 OB Montessori Fairview. </a>
 </nav>
+</center>
 <script type="text/javascript">
+
 function ba() {
  document.getElementById('sosos').innerHTML="Loading...";
 }
@@ -178,8 +110,24 @@ function ea() {
 document.getElementById('dodod').innerHTML="Loading...";
 }
 
+
+function faceon() {
+var x = document.getElementById("audio");
+document.getElementById('face').src="https://i.postimg.cc/dtvctH5N/face-on.png";
+  x.play(); 
+}
+
+function faceoff() {
+var x = document.getElementById("audio");
+document.getElementById('face').src="https://i.postimg.cc/MKyR1TbK/face-on-Copy.png";
+  x.play(); 
+}
+
+function random() {
+const websites = ["bonus.html", "face.html", "robot.html", "movie.html", "ohstimpy.html", "nagi.html", "love.html"];
+const random = Math.floor(Math.random() * websites.length);
+document.getElementById('rand').href = ""+ websites[random] +"";
+}
 </script>
-</center>
-</center>
 </body>
 </html>
